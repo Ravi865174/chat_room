@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Chat Room</h1>
+    </header>
+    <main>
+        <ul id="messages"></ul>
+    </main>
+    <footer>
+        <input id="myMessage" autocomplete="off"/>
+        <button id="sendButton">Send</button>
+        <button id="analyzeButton">Analyze</button>
+    </footer>
+    <script src="/static/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#messages li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 20px; /* Rounded corners for the input box */
+    border: 1px solid #ddd;
+}
+
+footer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px; /* Rounded corners for buttons */
+}
+
+#sendButton {
+    background-color: #007bff;
+    color: white;
+}
+
+#analyzeButton {
+    background-color: #dc3545;
+    color: white;
+}
