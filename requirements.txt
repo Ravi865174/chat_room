@@ -1,5 +1,5 @@
-Flask==2.0.1
-Flask-SocketIO==5.1.0
-gunicorn==20.1.0
-eventlet==0.33.0
-python-socketio==5.4.0
+Flask
+python-socketio
+eventlet
+gunicorn
+nltk
