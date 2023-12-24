@@ -1,4 +1,3 @@
-// chat.js
 $(document).ready(function() {
     var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port);
 
@@ -22,7 +21,6 @@ $(document).ready(function() {
         return false;
     });
 
-    // Ensures the message box scrolls to the bottom for each new message
     var messageBox = $('#messages');
     var scrollDown = function() {
         messageBox.scrollTop(messageBox.prop('scrollHeight'));
